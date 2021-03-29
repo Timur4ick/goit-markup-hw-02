@@ -11,8 +11,8 @@
          url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic/raleway-v19-latin_cyrillic-ext_cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
   }
   /* Заготовки глобальных настроек */
-  :root {
-    --main-text-color-gray: #757575;
+   :root {
+    --main-text-color-gray: #6b6a6a;
     --main-text-color-black: #212121;
     --main-text-color-master-black: #000000;
     --main-text-color-blue: #2196F3;
@@ -21,14 +21,14 @@
     --border-color: #EEEEEE;
     --bg-color-team: #F5F4FA;
   }
-  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Roboto", sans-serif;
   /* Цвет фона main */
   .main-bg {
     background-color: var(--main-text-color-white);
   }
-  /* a.current {
+   a.current {
     color: var(--main-text-color-blue);
-  } */
+  } 
   /* Применение классов */
   /* настройка цвета логотипа, а именно части Web */
   .logocolor {
@@ -41,7 +41,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em; /* расстояние между буквами*/
     color: var(--main-text-color-black);
-    /*background-color: #e5e5e5;*/
+    background-color: #e5e5e5;
   }
   .logo-link
   {
@@ -74,13 +74,13 @@
   .line {
           display: inline;
           margin-right: 5px;
-          /* list-style: none;убираем маркеры списка */
-          /*display: inline-block; /* Отображать как строчный элемент */
-          /* margin: 0; убираем верхнее и нижнее поле, равное 1em */
-          /* padding-left: 0; убираем левый отступ, равный 40px */
-          /* margin-right: 5px; Отступ слева */
-          /* border: 1px solid #000; Рамка вокруг текста
-          padding: 3px; Поля вокруг текста */
+           list-style: none; /*убираем маркеры списка */
+          display: inline-block; /*Отображать как строчный элемент */
+          margin: 0; /*убираем верхнее и нижнее поле, равное 1em */
+          padding-left: 40px; /*убираем левый отступ, равный 40px */
+          margin-right: 5px; /*Отступ слева */
+          border: 1px solid #000; /*Рамка вокруг текста*/
+          padding: 3px; /*Поля вокруг текста */
       }
   .up-phone-email-style {
   font-weight: 500;
@@ -98,12 +98,12 @@
   color: var(--main-text-color-black);
   }
   /* Цвет футера */
-  .fppter-text-color {
+  .footer-text-color {
     color: var(--main-text-color-white);
   }
   /* оформление адреса нижнего меню */
   .down-menue-address-style {
-  /*font-weight: 400;*/
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -118,7 +118,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
+  text-align: center; 
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-text-color-white);
@@ -130,7 +130,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
+    text-align: center; 
     letter-spacing: 0.03em;
     color: var(--main-text-color-master-black);
   }
@@ -139,7 +139,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
-    /* text-align: center; */
+    text-align: center; 
     letter-spacing: 0.03em;
     color: var(--main-text-color-master-black);
   }
@@ -160,7 +160,7 @@
   }
   /* Стиль для простого текста главной страницы */
   .p-style {
-    /*font-weight: 400;*/
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;  
@@ -168,10 +168,10 @@
   }
   /* Стиль для подписи нашей команды */
   .p-style-team {
-    /*font-weight: 400;*/
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    text-align: center; 
     letter-spacing: 0.03em;  
     color: var(--main-text-color-gray);
   }
@@ -185,7 +185,7 @@
   }
   /* Стиль для cтилизации описания фото в портфолио */
   .portfolio-p-style {
-  /*font-weight: 400;*/
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -216,12 +216,12 @@
   /* Стиль логотипа (цвет, шрифт и т.д.) */
   .logo-style {  
   font-family: "Raleway", sans-serif;
-  /* font-style: normal; */
+  font-style: normal; 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  /* color: var(--main-text-color-master-black); */
+  color: var(--main-text-color-master-black); 
   }
   /* Стиль кнопок на странице портфолио */
   .portfolio-buttom {
@@ -234,16 +234,14 @@
   background-color: var(--main-text-color-white);
   cursor: pointer;
   }
+ 
   
-  .portfolio-buttom:hover,
-  :focus {
-  
-  .portfolio-buttom.link:hover,
+  .portfolio-button.link:hover,
   .portfolio-buttom.link:focus {
     background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
     color: var(--main-text-color-white);  /*изменение цвета надписи*/
     cursor: pointer;
-    /* cursor: pointer; */
+     
   }
   
   .portfolio-buttom.primary {
@@ -266,28 +264,27 @@
     position: absolute !important;
   @@ -308,7 +325,7 @@ color: var(--main-text-color-black);
   .bg-color-header {
-    /* position: absolute; */
+    position: absolute;
     width: 1600px;
     height: 80px;
-    /* height: 80px; */
     left: 0px;
     top: 0px;
   
   @@ -318,7 +335,7 @@ color: var(--main-text-color-black);
   .bg-color-up {
-  /* position: absolute; */
-  width: 1600px;
+  position: absolute;
+  max-width: 1600px;
   height: 600px;
-  /* height: 600px; */
+  height: 600px;
   left: 0px;
   top: 80px;
   background: var(--main-text-color-gray);
   }
   .bg-color-team {
-    /* position: absolute; */
+    position: absolute;
     width: 1600px;
     height: 648px;
-    /* height: 648px; */
+    height: 648px;
     left: 0px;
     top: 1449px;
     background: var(--bg-color-team);
@@ -337,4 +334,4 @@
    /*      url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
    /*      url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
   /*}*/
-  /* raleway-700 - latin_cyrillic-ext_cyrillic */
+  /* raleway-700 - latin_cyrillic-ext_cyrillic 
