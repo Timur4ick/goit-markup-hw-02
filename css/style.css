@@ -19,7 +19,7 @@
 
 a.current {
   color: var(--main-text-color-blue);
-text-decoration: none;
+  text-decoration: none;
 }
 
 /* Применение классов */
@@ -37,15 +37,23 @@ body {
   color: var(--main-text-color-black);
   background-color: #e5e5e5;
 }
-.section-up
-{
+.section-up {
 background-color: #000000;
-
+max-width: 1600px;
+height: 600px;
 }
 .logo-link
 {
   text-decoration: none; /* убирает подчеркивание с ссылки */
   color: inherit; /* обесцвечивает ссылку */
+  margin-left: 215px;
+  width: 145px;
+  height: 31px;
+  max-width: 1600px;
+  height: 80px;
+}
+.adress-footer {
+  font-style: normal;
 }
 /* обесцвечивание и скрытия подч]ркивания для ссылки */
 .link {
@@ -64,6 +72,7 @@ background-color: #000000;
 /* Отцентровать */
 .center {
   text-align: center;
+
 }
 /* Убрать нумерацию списка */
 .list {
@@ -122,6 +131,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-text-color-white);
+
 }
 /* Стиль заголовка н2 */
 .h2-style {
