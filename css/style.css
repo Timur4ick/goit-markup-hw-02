@@ -9,21 +9,25 @@
   --border-color: #EEEEEE;
   --bg-color-team: #F5F4FA;
 }
+
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
 /* Цвет фона main */
 .main-bg {
   background-color: var(--main-text-color-white);
 }
+
 a.current {
   color: var(--main-text-color-blue);
 text-decoration: none;
 }
+
 /* Применение классов */
 /* настройка цвета логотипа, а именно части Web */
 .logo-span {
 color: var(--main-text-color-blue);
 }
+
 /* Настройка тела сайта */
 body {
   font-family: "Roboto", sans-serif;
@@ -52,6 +56,9 @@ background-color: #000000;
 .link:hover,
 :focus {
   color: var(--main-text-color-blue);
+}
+.link-contact {
+  color: inherit;
 }
 /* Список в ряд */
 /* Отцентровать */
