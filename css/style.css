@@ -5,12 +5,11 @@
   --main-text-color-master-black: #000000;
   --main-text-color-blue: #2196F3;
   --main-text-color-white: #FFFFFF;
-  --bg-color-gray: #2f303a;
+  --bg-color-gray: #E5E5E5;
   --border-color: #EEEEEE;
   --bg-color-team: #F5F4FA;
 }
 
-/* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
 /* Цвет фона main */
 .main-bg {
@@ -30,6 +29,7 @@ color: var(--main-text-color-blue);
 
 /* Настройка тела сайта */
 body {
+  font-family: 'Raleway', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -126,14 +126,17 @@ color: rgba(255, 255, 255, 0.6);
     }
 /* Стиль заголовка н1 */
 .h1-style {
-font-weight: 900;
+font-weight: 696px;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-text-color-white);
-
+margin-left: 452px;
+margin-right: 452px;
+margin-top: 30px;
+padding-top: 200px;
 }
 /* Стиль заголовка н2 */
 .h2-style {
@@ -209,23 +212,29 @@ color: var(--main-text-color-gray);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-text-color-white);
+  background-color: #F5F4FA;
 }
+
 .button-index {
   background-color: var(--main-text-color-blue);
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-right: 700px;
 }
 
 /* изменение цвета кнопки при наведении */
-.current-button:hover,
+.button:hover,
 :focus {
   background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
   color: var(--main-text-color-white); /*изменение цвета надписи*/
   cursor: pointer;
 }
+
 /* Стиль логотипа (цвет, шрифт и т.д.) */
 .logo-style {  
 font-family: "Raleway", sans-serif;
@@ -245,8 +254,11 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color-black);
 background-color: var(--main-text-color-white);
-}
 
+}
+.list-button {
+display: inline-flex;
+}
 /* .portfolio-button:hover,
 :focus, */
 .portfolio-button.link:hover,
