@@ -46,14 +46,15 @@ height: 600px;
 {
   text-decoration: none; /* убирает подчеркивание с ссылки */
   color: inherit; /* обесцвечивает ссылку */
-  margin-left: 215px;
+  /* margin-left: 215px; */
   width: 145px;
   height: 31px;
   max-width: 1600px;
   height: 80px;
 }
-.adress-footer {
+.address-footer {
   font-style: normal;
+
 }
 /* обесцвечивание и скрытия подч]ркивания для ссылки */
 .link {
@@ -65,6 +66,7 @@ height: 600px;
 :focus {
   color: var(--main-text-color-blue);
 }
+
 .link-contact {
   color: inherit;
 }
@@ -216,8 +218,9 @@ color: var(--main-text-color-gray);
 .button-index {
   background-color: var(--main-text-color-blue);
 }
+
 /* изменение цвета кнопки при наведении */
-.button:hover,
+.current-button:hover,
 :focus {
   background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
   color: var(--main-text-color-white); /*изменение цвета надписи*/
