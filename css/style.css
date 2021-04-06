@@ -1,4 +1,3 @@
-/* Заготовки глобальных настроек */
 :root {
   --main-text-color-gray: #757575;
   --main-text-color-black: #212121;
@@ -9,22 +8,21 @@
   --border-color: #EEEEEE;
   --bg-color-team: #F5F4FA;
 }
-
 /* font-family: 'Roboto', sans-serif; */
 /* Цвет фона main */
 .main-bg {
-  background-color: var(--main-text-color-white);
+  background-color: white;
 }
 
 a.current {
-  color: var(--main-text-color-blue);
+  color: blue;
   text-decoration: none;
 }
 
 /* Применение классов */
 /* настройка цвета логотипа, а именно части Web */
 .logo-span {
-color: var(--main-text-color-blue);
+color: blue;
 }
 
 /* Настройка тела сайта */
@@ -34,8 +32,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em; /* расстояние между буквами*/
-  color: var(--main-text-color-black);
-  background-color: #e5e5e5;
+  color: #000000;
+  background-color: #E5E5E5;
 }
 .section-up {
 background-color: #000000;
@@ -92,38 +90,38 @@ height: 600px;
         /* border: 1px solid #000; Рамка вокруг текста
         padding: 3px; Поля вокруг текста */
     }
-.up-phone-email-style {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color-gray);
-}
+/* .up-phone-email-style { */
+/* font-weight: 500; */
+/* font-size: 14px; */
+/* line-height: 1.14; */
+/* letter-spacing: 0.02em; */
+/* color: var(--main-text-color-gray); */
+
 /* оформление верхнего меню */
-.up-menue-style {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color-black);
-}
+/* .up-menue-style { */
+/* font-weight: 500; */
+/* font-size: 14px; */
+/* line-height: 1.14; */
+/* letter-spacing: 0.02em; */
+/* color: var(--main-text-color-black); */
+
 /* Цвет футера */
 .footer-text-color {
-  color: var(--main-text-color-white);
+  color: #FFFFFF;
   background-color: #000000;
 }
 /* оформление адреса нижнего меню */
-.down-menue-address-style {
+/* .down-menue-address-style {
 /*font-weight: 400;*/
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-  }
+/* font-style: normal; */
+/* font-size: 14px; */
+/* line-height: 1.7; */
+/* letter-spacing: 0.03em; */
+  
 /* оформление нижнего меню телефона и имэйла*/
-.down-menue-contact-style {
-color: rgba(255, 255, 255, 0.6);
-    }
+/* .down-menue-contact-style { */
+/* color: rgba(255, 255, 255, 0.6); */
+    
 /* Стиль заголовка н1 */
 .h1-style {
 font-weight: 696px;
@@ -132,7 +130,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--main-text-color-white);
+color: #FFFFFF;
 margin-left: 452px;
 margin-right: 452px;
 margin-top: 30px;
@@ -207,7 +205,8 @@ letter-spacing: 0.03em;
 color: var(--main-text-color-gray);
 }
 /* Стиль кнопки на главной странице */
-.button {
+.list-button {
+  list-style: none;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -220,30 +219,37 @@ color: var(--main-text-color-gray);
 }
 
 .button-index {
-  background-color: var(--main-text-color-blue);
+  background-color: #2196f3;
+  color: #E5E5E5;
   width: 200px;
   height: 50px;
   margin-left: 700px;
   margin-right: 700px;
+  border-radius: 4px;
+}
+.button-index:hover,
+:focus {
+  background-color: #E5E5E5;
+  color: black;
 }
 
 /* изменение цвета кнопки при наведении */
 .button:hover,
 :focus {
-  background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
-  color: var(--main-text-color-white); /*изменение цвета надписи*/
+  background-color: #2196f3; /*изменение цвета кнопни*/
+  color: #FFFFFF; /*изменение цвета надписи*/
   cursor: pointer;
 }
 
 /* Стиль логотипа (цвет, шрифт и т.д.) */
 .logo-style {  
 font-family: "Raleway", sans-serif;
-/* font-style: normal; */
+font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-/* color: var(--main-text-color-master-black); */
+color: #000000;
 }
 /* Стиль кнопок на странице портфолио */
 .portfolio-button {
@@ -258,6 +264,7 @@ background-color: var(--main-text-color-white);
 }
 .list-button {
 display: inline-flex;
+
 }
 /* .portfolio-button:hover,
 :focus, */
