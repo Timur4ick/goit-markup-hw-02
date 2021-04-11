@@ -14,7 +14,10 @@
 .main-bg {
   background-color: white;
 }
-
+.header-style {
+  background-color: #FFFFFF;
+  margin-bottom: 1px;
+}
 a.current {
   color: blue;
   text-decoration: none;
@@ -70,10 +73,10 @@ height: 600px;
   color: var(--main-text-color-blue);
 }
 
-/* .link-contact :hover, 
-:focus {
-  background-color: var(--main-text-color-blue);
-} */
+.link-contact {
+  margin-right: 50px;
+
+}
 
 /* Список в ряд */
 /* Отцентровать */
@@ -159,6 +162,7 @@ padding-top: 200px;
   letter-spacing: 0.03em;
   color: var(--main-text-color-master-black);
 }
+
 /* Стиль заголовка н2 для "Наша команда" */
 .h2-style-team {
   font-weight: 500;
@@ -273,7 +277,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color-black);
 background-color: var(--main-text-color-white);
-
+margin-left: 8px;
 }
 /* .portfolio-button:hover,
 :focus, */
