@@ -9,7 +9,9 @@
   --bg-color-team: rgba(245,244,250,1);
   --bg-color-head-foot: rgba(47,48,58,1);
 }
-
+li {
+  list-style: none;
+}
 body {
   font-family: 'Raleway', "Roboto", sans-serif;
   font-size: 14px;
@@ -54,6 +56,8 @@ height: 600px;
   text-decoration: none; /* убирает подчеркивание с ссылки */
   color: inherit; /* обесцвечивает ссылку */
   /* margin-left: 215px; */
+  font-weight: bold;
+  font-size: 26px;
   width: 145px;
   height: 31px;
   max-width: 1600px;
@@ -102,7 +106,7 @@ height: 600px;
         /* border: 1px solid #000; Рамка вокруг текста
         padding: 3px; Поля вокруг текста */
     }
-    .list :hover,
+    .line :hover,
     :focus {
     color: #2196F3;
 
@@ -223,8 +227,6 @@ color: var(--main-text-color-gray);
 }
 /* Стиль кнопки на главной странице */
 .list-button {
-  list-style: none;
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -245,8 +247,8 @@ color: var(--main-text-color-gray);
 }
 .button-index:hover,
 :focus {
-  background-color: #2196F3;
-  color: black;
+  /* background-color: #2196F3;
+  color: black; */
   cursor: pointer;
 }
 
