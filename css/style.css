@@ -9,6 +9,16 @@
   --bg-color-team: rgba(245,244,250,1);
   --bg-color-head-foot: rgba(47,48,58,1);
 }
+
+body {
+  font-family: 'Raleway', "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em; /* расстояние между буквами*/
+  color: #000000;
+  background-color: floralwhite;
+}
 /* font-family: 'Roboto', sans-serif; */
 /* Цвет фона main */
 .main-bg {
@@ -32,15 +42,7 @@ color: blue;
    background-color: var(--bg-color-team);
  }
 /* Настройка тела сайта */
-body {
-  font-family: 'Raleway', sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em; /* расстояние между буквами*/
-  color: #000000;
-  background-color: floralwhite;
-}
+
 .section-up {
 background-color: var(--bg-color-head-foot);
 max-width: 1600px;
@@ -75,7 +77,7 @@ height: 600px;
 
 .link-contact {
   margin-right: 50px;
-
+  text-decoration: none;
 }
 
 /* Список в ряд */
@@ -153,7 +155,6 @@ padding-top: 200px;
 }
 /* Стиль заголовка н2 */
 .h2-style {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -231,7 +232,6 @@ color: var(--main-text-color-gray);
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--bg-color-team);
 }
 
 .button-index {
@@ -250,12 +250,24 @@ color: var(--main-text-color-gray);
   cursor: pointer;
 }
 
+.button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #212121;
+  text-align: center;
+  letter-spacing: 0,03em;
+  border-radius: 4px;
+  background-color: var(--bg-color-team);
+}
+
 /* изменение цвета кнопки при наведении */
 .button:hover,
 :focus {
   background-color: #2196f3; /*изменение цвета кнопни*/
   color: #FFFFFF; /*изменение цвета надписи*/
   cursor: pointer;
+
 }
 
 /* Стиль логотипа (цвет, шрифт и т.д.) */
