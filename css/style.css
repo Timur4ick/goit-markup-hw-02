@@ -9,9 +9,18 @@
   --bg-color-team: rgba(245,244,250,1);
   --bg-color-head-foot: rgba(47,48,58,1);
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
 li {
   list-style: none;
 }
+
 body {
   font-family: 'Raleway', "Roboto", sans-serif;
   font-size: 14px;
@@ -130,6 +139,8 @@ height: 600px;
 .footer-text-color {
   color: #FFFFFF;
   background-color: var(--bg-color-head-foot);
+  max-width: 1600px;
+  height: 252px;
 }
 /* оформление адреса нижнего меню */
 /* .down-menue-address-style {
