@@ -37,7 +37,7 @@ body {
 }
 
 a.current {
-  color: #2196F3;
+  color: rgba(33, 150, 243, 1);
   text-decoration: none;
 }
 /* font-family: 'Roboto', sans-serif; */
