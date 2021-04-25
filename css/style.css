@@ -352,17 +352,7 @@ color: var(--main-text-color-gray);
 /* Стиль логотипа (цвет, шрифт и т.д.) */
 
 /* Стиль кнопок на странице портфолио */
-.portfolio-button {
-font-weight: 500;
-font-size: 16px;
-font-style: normal;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text-color-black);
-background-color: var(--main-text-color-white);
-/* margin-left: 8px; */
-}
+
 /* .portfolio-button:hover,
 :focus,
 {
