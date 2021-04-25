@@ -46,7 +46,7 @@ a.current {
   background-color: white;
 }
 .header {
-  position: absolute;
+  /* position: absolute; */
   width: 1600px;
   height: 80px;
   /* margin-left: 0; */
@@ -96,6 +96,24 @@ a.current {
   color: var(--main-text-color-gray);
 }
 
+.team-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-black);
+}
+
+.list-footer {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
 /* .line { */
    
    /* margin-right: 5px; */
@@ -110,8 +128,16 @@ a.current {
 
 
 .list {
-
   list-style: none;
+}
+
+.contact {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.03em;
+color: var(--bg-color-gray);
 }
 
 /* Применение классов */
@@ -140,10 +166,10 @@ height: 600px;
 }
 
 /* изменение ссылки при наведении */
-.link :hover, 
+/* .link :hover, 
 :focus {
-  color: var(--main-text-color-blue);
-}
+  color: #2196F3;
+} */
 
 
 
@@ -218,14 +244,14 @@ padding-top: 200px;
 }
 
 /* Стиль заголовка н2 для "Наша команда" */
-.h2-style-team {
+/* .h2-style-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color-master-black);
-}
+} */
 /* Стиль заготовка н3 */
 .h3-style {
   font-weight: 700;
@@ -302,14 +328,16 @@ color: var(--main-text-color-gray);
 }
 
 .button {
+  display: inline;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
-  color: #212121;
+  color: var(--main-text-color-black);
   text-align: center;
   letter-spacing: 0,03em;
   border-radius: 4px;
   background-color: var(--bg-color-team);
+
 }
 
 /* изменение цвета кнопки при наведении */
@@ -336,14 +364,9 @@ background-color: var(--main-text-color-white);
 /* margin-left: 8px; */
 }
 /* .portfolio-button:hover,
-:focus, */
-.portfolio-button:hover,
-.portfolio-button:focus {
-  background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
-  color: var(--main-text-color-white);  /*изменение цвета надписи*/
-
-  /* cursor: pointer; */
-}
+:focus,
+{
+} */
 
 /* .portfolio-button.primary {
   background-color: var(--main-text-color-blue);
