@@ -1,17 +1,15 @@
-/* @font-face {
-  font-family: "Relaway";
-  
-} */
+
 :root {
   --main-text-color-gray: rgba(117,117,117,1);
   --main-text-color-black: rgba(33,33,33,1);
   --main-text-color-master-black:#000000;
   --main-text-color-blue: #2196F3;
-  --main-text-color-white: rgb(255, 255, 255);
+  --main-text-color-white: rgba(255, 255, 255,1);
   --bg-color-gray: rgb(230, 230, 230);
   --border-color: #EEEEEE;
   --bg-color-team: rgba(245,244,250,1);
-  --bg-color-head-foot: rgba(47,48,58,1);
+  --bg-color-head-foot: #2F303A;
+  --bg-color-header: #ececec;
 }
 
 h1,
@@ -27,20 +25,19 @@ li {
 }
 
 body {
-  font-family: 'Raleway', "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em; /* расстояние между буквами*/
-  color: #000000;
-  background-color: #E5E5E5;
+  color: var(--main-text-color-master-black);
 }
 
 a.current {
   color: rgba(33, 150, 243, 1);
   text-decoration: none;
 }
-/* font-family: 'Roboto', sans-serif; */
+
 /* Цвет фона main */
 .main-bg {
   background-color: white;
@@ -49,6 +46,7 @@ a.current {
   /* position: absolute; */
   width: 1600px;
   height: 80px;
+  border-bottom: 1px solid ;
   /* margin-left: 0; */
   /* margin-top: 0; */
   background-color: #FFFFFF;
@@ -60,25 +58,31 @@ a.current {
   font-family: "Raleway", sans-serif;
   text-decoration: none; 
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700 ;
   font-size: 26px;
-  letter-spacing: 0,03em;
+  letter-spacing: 0.03em;
   /* position: absolute; */
   width: 145px;
   line-height: 1.2;
-  color: inherit;
   /* margin-left: 215px; */
   color: #000000;
 }
 
 .logo-footer {
-  color: #E5E5E5;
+  color: #FFFFFF;
 }
 
 /* .contact {
   display: inline-flex;
   margin-right: 215px;
 } */
+.nav-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
 
 .logo-span {
   color: #2196F3;
@@ -86,8 +90,8 @@ a.current {
 }
 
 .line-team {
-  font-family: "Roboto";
-  
+  background-color: var(--main-text-color-white);
+  box-sizing: border-box;
 }
 
 .contact-link {
@@ -97,23 +101,26 @@ a.current {
 }
 
 .team-name {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--main-text-color-black);
+
 }
 
 .list-footer {
-  font-family: Roboto;
 font-style: normal;
-font-weight: normal;
 font-size: 14px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.nav-list {
+  font-size: 14px;
+  font-style: normal;
+
+}
 /* .line { */
    
    /* margin-right: 5px; */
@@ -126,13 +133,8 @@ color: rgba(255, 255, 255, 0.6);
         padding: 3px; Поля вокруг текста */
     
 
-
-.list {
-  list-style: none;
-}
-
 .contact {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -152,6 +154,7 @@ color: var(--bg-color-gray);
 background-color: var(--bg-color-head-foot);
 max-width: 1600px;
 height: 600px;
+margin: 0;
 }
 
 
@@ -286,7 +289,6 @@ padding-top: 200px;
 }
 /* Стиль для cтилизации заголовка фото в портфолио */
 .portfolio-h3-style {
-  font-family: "Roboto";
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -314,11 +316,14 @@ color: var(--main-text-color-gray);
 .button-index {
   display: block;
   background-color: #2196f3;
-  color: #E5E5E5;
+  color: #FFFFFF;
   width: 200px;
   height: 50px;
   margin: auto;
   border-radius: 4px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  
 }
 .button-index:hover,
 :focus {
@@ -387,12 +392,12 @@ color: var(--main-text-color-gray);
   color: var(--main-text-color-blue);
 } */
 /* цвет текста для отображения активной сылкиы */
-.current-button {
+/* .current-button {
   color: var(--main-text-color-white);
   background-color: var(--main-text-color-blue);
   cursor: pointer;
   text-align: center;
-}
+} */
 /* .bg-color-header {
   position: absolute;
   width: 1600px;
@@ -440,15 +445,15 @@ background: var(--main-text-color-white);
 border: 1px solid var(--border-color);
 box-sizing: border-box;
 } */ 
-.block-style-index {
+/* .block-style-index { */
   /* position: absolute; */
-  width: 270px;
-  height: 368px;
+  /* width: 270px;
+  height: 368px; */
   /* height: 368px; */
   /* left: 215px; */
   /* top: 1635px; */
-  background: var(--main-text-color-white);
+  /* background: var(--main-text-color-white); */
   /* material shadow v1 */  
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
-  border-radius: 0px 0px 4px 4px;
-}
+  /* border-radius: 0px 0px 4px 4px;
+} */
