@@ -1,13 +1,13 @@
 
 :root {
-  --main-text-color-gray: rgba(117,117,117,1);
-  --main-text-color-black: rgba(33,33,33,1);
+  --main-text-color-gray: #757575;
+  --main-text-color-black: #212121;
   --main-text-color-master-black:#000000;
   --main-text-color-blue: #2196F3;
-  --main-text-color-white: rgba(255, 255, 255,1);
-  --bg-color-gray: rgb(230, 230, 230);
+  --main-text-color-white: #FFFFFF;
+  --bg-color-gray: #FFFFFF 60%;
   --border-color: #EEEEEE;
-  --bg-color-team: rgba(245,244,250,1);
+  --bg-color-team: #F5F4FA;
   --bg-color-head-foot: #2F303A;
   --bg-color-header: #ececec;
 }
@@ -39,14 +39,14 @@ a.current {
 }
 
 /* Цвет фона main */
-.main-bg {
+/* .main-bg {
   background-color: white;
-}
+} */
 .header {
   /* position: absolute; */
   width: 1600px;
   height: 80px;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid var(--bg-color-header);
   /* margin-left: 0; */
   /* margin-top: 0; */
   background-color: #FFFFFF;
@@ -77,7 +77,6 @@ a.current {
   margin-right: 215px;
 } */
 .nav-list {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -87,6 +86,10 @@ a.current {
 .logo-span {
   color: #2196F3;
   
+}
+
+.section-team {
+  color: var(--bg-color-team);
 }
 
 .line-team {
@@ -113,7 +116,7 @@ a.current {
 font-style: normal;
 font-size: 14px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--main-text-color-gray);
 }
 
 .nav-list {
@@ -134,7 +137,6 @@ color: rgba(255, 255, 255, 0.6);
     
 
 .contact {
-  font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -159,7 +161,15 @@ margin: 0;
 
 
 .address-footer {
-  font-style: normal;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
 
 }
 /* обесцвечивание и скрытия подч]ркивания для ссылки */
@@ -223,16 +233,17 @@ margin: 0;
     
 /* Стиль заголовка н1 */
 .h1-style {
-font-weight: 696px;
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-margin-left: 452px;
-margin-right: 452px;
-margin-top: 30px;
+margin: auto;
+width: 696px;
+/* margin-left: 452px;
+margin-right: 452px; */
 padding-top: 200px;
 }
 /* Стиль заголовка н2 */
