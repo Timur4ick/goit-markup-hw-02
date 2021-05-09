@@ -5,20 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="goit_homework-2" content="width=device-width, initial-scale=1.0">
   <title>goit-homework-2</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  
   <link rel="preconnect" href="https://fonts.gstatic.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"/>
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
 </head>
-
   <body>
     
     <header class="header"> 
        <a href="webstudia.html" class="logo"><span class="logo-span">Web</span>Studia</a> 
    <nav class="nav-site">
-    <ul class="nav-list">
+    <ul class="nav-list list">
       <li class="line">
         <a href="./index.html" class="link current">Студия</a>
       </li>
@@ -30,7 +29,7 @@
       </li>
     </ul>
   </nav>
-  <ul class="contact">
+  <ul class="contact list">
     <li class="line">
   <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
     </li>
@@ -46,7 +45,8 @@
      <h1 class="h1-style">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
    <button type="button" class="button-index">Заказать услугу</button>
   </section>
-<section>
+
+<section class="section-center">
   <ul class="list">
   <li>
     <h3 class="h3-style">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -73,10 +73,10 @@
 </ul>
 </section>
 
-<section>  
+<section class="section-img">  
 <h2 class="h2-style">Чем мы занимаемся</h2>
 <ul class="list">
-  <li class="line"> 
+  <li>
 <img src="./images/imge.jpg" alt="набор кода на клавиатуре перед планшетом и монитором" width="370"/></li>
   <li>
     <img src="./images/imge-1.jpg" alt="настройка мобильного гаджета через ноутбук" width="370"/></li>
@@ -87,7 +87,7 @@
 <!--Наша Команда-->
 <section class="section-team">
   <h2 class="h2-style">Наша команда</h2>
-  <ul class="team">
+  <ul class="team list">
 <li class="line-team">
   <img src="./images/imge-3.jpg" alt="Игорь Демьяненко Product Designer" width="270"/>
 
@@ -119,8 +119,8 @@
 <footer class="footer-text-color"> 
 <a href="./index.html" class="logo-footer"><span class="logo-span">Web</span>Studio</a>
 <address class="address-footer">
-  г.Киев,пр-т Леси Украинки,26
-<ul class="list-footer">
+  <p class="address">г.Киев,пр-т Леси Украинки,26</p>
+<ul class="list-footer list">
   <li class="line">
   <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
   </li>
