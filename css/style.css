@@ -29,11 +29,11 @@ body {
   color: var(--name-text-color);
 }
 /*  bg-header */
-.header {
-  max-width: 1600px;
-  height: 80px;
+.header-page {
+  /* max-width: 1600px;
+  height: 80px; */
   border-bottom: 1px solid var(--border-color-header);
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 }
 /* убраны подчёркивания и метки */
 .list {
@@ -86,15 +86,15 @@ letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
-.section-up {
+.section-title {
 background-color: var(--bg-color-head-foot);
-max-width: 1600px;
-height: 600px;
-margin: 0;
+/* max-width: 1600px;
+height: 600px; */
+/* margin: 0; */
 }
 
 /* Стиль заголовка н1 */
-.h1-style {
+.title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -102,12 +102,12 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-margin: auto;
+/* margin: auto;
 width: 696px;
-padding-top: 200px;
+padding-top: 200px; */
 }
 
-.button-index {
+.btn-main {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -119,10 +119,11 @@ padding-top: 200px;
   width: 200px;
   height: 50px;
   margin: auto;
+  border: none;
 }
 
-.button-index:hover,
-.button-index:focus {
+.btn-main:hover,
+.btn-main:focus {
   color: var(--main-bg-color);
   cursor: pointer;
 }
@@ -144,8 +145,7 @@ padding-top: 200px;
 }
 
 /* Стиль заголовка н2 */
-.h2-style {
-  font-weight: 700;
+.caption {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -154,30 +154,23 @@ padding-top: 200px;
 }
 
 /* Стиль заготовка н3 */
-.h3-style {
-  font-weight: 700;
+.heading {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--name-text-color);
 }
 
 /* стиль текста */
-.p-style-up {
+.text {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-/* Наша комада */
-.section-team {
-  color: var(--bg-color-team);
-}
-
 /* style card */
-.line-team {
+.item-team {
   background-color: var(--main-bg-color);
   box-sizing: border-box;
 }
@@ -192,7 +185,7 @@ padding-top: 200px;
 }
 
 /* Стиль для подписи нашей команды */
-.p-style-team {
+.desc-team {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.19;
@@ -202,11 +195,10 @@ padding-top: 200px;
 }
 
 /* Цвет футера */
-.footer-text-color {
-  color: var(--main-bg-color);
+.footer-bg {
   background-color: var(--bg-color-head-foot);
-  max-width: 1600px;
-  height: 252px;
+  /* max-width: 1600px;
+  height: 252px; */
 }
 
 /* .address-footer {
@@ -244,13 +236,13 @@ color: var(--text-foot-color);
   text-align: center;
 }
 
-  .line :hover,
-  .line :focus {
+  .item :hover,
+  .item :focus {
     color: var(--special-text-color);
   } 
 
 /* Стиль для cтилизации заголовка фото в портфолио */
-.portfolio-h3-style {
+.subtitle {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -258,7 +250,7 @@ letter-spacing: 0.06em;
 color: var(--name-text-color);
 }
 /* Стиль для cтилизации описания фото в портфолио */
-.portfolio-p-style {
+.desc {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
