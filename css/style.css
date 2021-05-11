@@ -1,14 +1,13 @@
-
 :root {
   --name-text-color: #212121;
   --main-text-color: #757575;
-  --bg-color-head-foot: #2F303A;
-  --main-text-color-master:#000000;
-  --special-text-color: #2196F3;
-  --main-bg-color: #FFFFFF;
-  --text-foot-color: #FFFFFF 60%;
-  --border-color: #EEEEEE;
-  --bg-color-team: #F5F4FA;
+  --bg-color-head-foot: #2f303a;
+  --main-text-color-master: #000000;
+  --special-text-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --foot-text-color: #ffffff 60%;
+  --border-color: #eeeeee;
+  --bg-color-team: #f5f4fa;
   --border-color-header: #ececec;
 }
 
@@ -25,15 +24,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em; /* расстояние между буквами*/
+  letter-spacing: 0.03em;
   color: var(--name-text-color);
 }
 /*  bg-header */
 .header-page {
-  /* max-width: 1600px;
-  height: 80px; */
   border-bottom: 1px solid var(--border-color-header);
-  /* background-color: var(--main-bg-color); */
 }
 /* убраны подчёркивания и метки */
 .list {
@@ -49,8 +45,8 @@ a.current {
 .logo,
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  text-decoration: none; 
-  font-weight: 700 ;
+  text-decoration: none;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -62,23 +58,22 @@ a.current {
 }
 
 .logo-footer {
-  color: #FFFFFF;
+  color: var(--main-bg-color);
 }
 
 .nav-list {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--name-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--name-text-color);
 }
 
 .contact {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-/* color: var(--main-text-color); */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contact-link {
@@ -87,24 +82,18 @@ letter-spacing: 0.02em;
 }
 
 .section-title {
-background-color: var(--bg-color-head-foot);
-/* max-width: 1600px;
-height: 600px; */
-/* margin: 0; */
+  background-color: var(--bg-color-head-foot);
 }
 
 /* Стиль заголовка н1 */
 .title {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
-/* margin: auto;
-width: 696px;
-padding-top: 200px; */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
 }
 
 .btn-main {
@@ -114,7 +103,7 @@ padding-top: 200px; */
   letter-spacing: 0.06em;
   border-radius: 4px;
   background-color: var(--special-text-color);
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   width: 200px;
   height: 50px;
@@ -139,8 +128,8 @@ padding-top: 200px; */
 
 .button:hover,
 .button:focus {
-  background-color: var(--special-text-color); /*изменение цвета кнопни*/
-  color: var(--main-bg-color); /*изменение цвета надписи*/
+  background-color: var(--special-text-color);
+  color: var(--main-bg-color);
   cursor: pointer;
 }
 
@@ -181,39 +170,29 @@ padding-top: 200px; */
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--name-text-color)
+  color: var(--name-text-color);
 }
 
 /* Стиль для подписи нашей команды */
 .desc-team {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
-  letter-spacing: 0.03em;  
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
 /* Цвет футера */
 .footer-bg {
   background-color: var(--bg-color-head-foot);
-  /* max-width: 1600px;
-  height: 252px; */
 }
 
-/* .address-footer {
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: inherit;
-} */
-
 .list-footer {
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: var(--text-foot-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--foot-text-color);
 }
 
 .address {
@@ -227,8 +206,8 @@ color: var(--text-foot-color);
 
 /* обесцвечивание и скрытия подч]ркивания для ссылки */
 .link {
-  text-decoration: none; /* убирает подчеркивание с ссылки */
-  color: inherit; /*обесцвечивает ссылку*/
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Отцентровать */
@@ -236,18 +215,17 @@ color: var(--text-foot-color);
   text-align: center;
 }
 
-  .item :hover,
-  .item :focus {
-    color: var(--special-text-color);
-  } 
+.item :hover,
+.item :focus {
+  color: var(--special-text-color);
+}
 
 /* Стиль для cтилизации заголовка фото в портфолио */
 .subtitle {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--name-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--name-text-color);
 }
 /* Стиль для cтилизации описания фото в портфолио */
 .desc {
@@ -259,12 +237,12 @@ color: var(--name-text-color);
 
 /* Класс скрывающий элементы */
 .visually-hidden {
-  position: absolute !important;
+  position: absolute;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
   overflow: hidden;
 }
